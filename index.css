@@ -152,7 +152,7 @@ nav .icon-burger .line{
         font-size: 20px;
     }
     nav :checked ~ .links {
-        bottom: 70%;
+        bottom: 60%;
     }
     nav .icon-burger {
         display: block;
@@ -268,8 +268,6 @@ header {
         border: 1px solid black;
     }
 
-   
-
 }
 
 .mobile_category {
@@ -318,7 +316,7 @@ ul {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
-    top: 25px;
+    top: 20px;
     align-items: center;
     left: 25%;
 }
