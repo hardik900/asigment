@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4e897cebac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg">
+        </div>
+
+        <div class="search_bar">
+            <input type="search" placeholder="Search Products And Brands">
+            <button type="button"><i class="fa-solid fa-magnifying-glass" style="margin-right: 5px;"></i>Search</button>
+        </div>
+
+        <div class="cart_ans_user">
+            <button><i class="fa-solid fa-cart-shopping"></i><span>Cart(1)</span></button>
+
+            <div class="user">
+                <div class="user_icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <p>User Account</p>
+            </div>
+        </div>
+        <div class="hamber" style="background-color: aqua;">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <nav class="hh">
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo-1">
+            <img src="logo.jpg"  style="width: 100px;"  alt="">
+        </div>
+        <ul class="links">
+            <!-- <img src="ztechimage.png" class=" img img-resp" alt=""> -->
+            <li><a href="#">User Account</a></li>
+            <li><a href="#">Cart</a></li>
+            
+        </ul>
+        <!-- <div class="image-drop">
+            <div class="dropdown float-right">
+                <div data-toggle="dropdown">
+                    <img src="Images/hardik.jpeg" class="drop" alt="">
+                </div>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="Cart.html">Cart</a>
+                    <a class="dropdown-item" href="My-Learning.html">My Courses</a>
+                    <a class="dropdown-item" href="#">Log out</a>
+                </div>
+            </div>
+        </div> -->
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+
+    <div class="mobile_category">
+        <ul>
+            <li>MOBILE AND TABS</li>
+            <li>ELECTRONICS</li>
+            <li>COMPUTER GAMING</li>
+            <li>FASHION</li>
+            <li>HOME DECORE</li>
+            <li>FURNITURE</li>
+            <li>BOOKS</li>
+            <li>OFFERZONE</li>
+        </ul>
+
+        <div class="dropdown">
+            <span>Category <i class="fa-solid fa-chevron-down"></i></span>
+            <div class="dropdown-content">
+                <p>MOBILE AND TABS</p>
+                <p>ELECTRONICS</p>
+                <p>COMPUTER GAMING</p>
+                <p>FASHION</p>
+                <p>HOME DECORE</p>
+                <p>FURNITURE</p>
+                <p>BOOKS</p>
+                <p>OFFERZONE</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="top">
+            <div class="trendin_and_button">
+                <p>TRENDING PRODUCTS</p>
+                <button>View All</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="slide_btn">
+                <button id="left" onclick="hello()"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="right" onclick="hello()"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <div class="product_cards">
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="nrml">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818">
+                    <p>Apple Iphone 13 Pro</p>
+                    <span><s>Rs. 60,000</s>
+                        <p>(20%)</p>
+                    </span>
+                    <h3>Rs. 52,000</h3>
+                    <div class="hover">
+                        <button class="buy">Buy Now</button>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
